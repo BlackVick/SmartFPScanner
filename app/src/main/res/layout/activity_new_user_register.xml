@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iccsoftware.smartfpscanner.NewUserRegister"
+    android:id="@+id/newUserRootLayout"
+    android:animateLayoutChanges="true">
+
+    <include layout="@layout/snippet_for_general"/>
+
+    <ScrollView
+        android:layout_marginTop="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/registerBtn">
+
+        <LinearLayout
+            android:animateLayoutChanges="true"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:padding="10dp">
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/usernameRegEdt"
+                android:inputType="textPersonName"
+                android:hint="Username"
+                android:text=""
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:met_singleLineEllipsis="true"
+                app:met_baseColor="@color/black"
+                app:met_floatingLabelAnimating="true"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/black"
+                app:met_clearButton="true"
+                android:drawableLeft="@drawable/ic_person"
+                android:drawableTint="@color/black"
+                android:drawablePadding="15dp"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/userFirstNameRegEdt"
+                android:inputType="textPersonName"
+                android:hint="First Name"
+                android:text=""
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:met_singleLineEllipsis="true"
+                app:met_baseColor="@color/black"
+                app:met_floatingLabelAnimating="true"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/black"
+                app:met_clearButton="true"
+                android:drawableLeft="@drawable/ic_person"
+                android:drawableTint="@color/black"
+                android:drawablePadding="15dp"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/userLastNameRegEdt"
+                android:inputType="textPersonName"
+                android:hint="Last name"
+                android:text=""
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="18sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:met_singleLineEllipsis="true"
+                app:met_baseColor="@color/black"
+                app:met_floatingLabelAnimating="true"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/black"
+                app:met_clearButton="true"
+                android:drawableLeft="@drawable/ic_person"
+                android:drawableTint="@color/black"
+                android:drawablePadding="15dp"/>
+
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:id="@+id/userEmailRegEdt"
+                android:inputType="textEmailAddress"
+                android:hint="User E-mail"
+                android:text=""
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:met_singleLineEllipsis="true"
+                app:met_baseColor="@color/black"
+                app:met_floatingLabelAnimating="true"
+                app:met_floatingLabel="highlight"
+                app:met_primaryColor="@color/black"
+                app:met_clearButton="true"
+                android:drawableLeft="@drawable/fui_ic_mail_white_24dp"
+                android:drawableTint="@color/black"
+                android:drawablePadding="15dp"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="SIGN UP"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:background="@drawable/gradient_ripple_buttons"
+        android:padding="15dp"
+        android:layout_margin="5dp"/>
+
+</RelativeLayout>

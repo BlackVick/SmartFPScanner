@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iccsoftware.smartfpscanner.Login"
+    android:background="@drawable/backgroundgradient"
+    android:id="@+id/loginRootLayout"
+    android:animateLayoutChanges="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:animateLayoutChanges="true">
+
+        <com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:layout_margin="45dp"
+            app:corner_radius="25dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/identity_check_image"/>
+
+        </com.jcminarro.roundkornerlayout.RoundKornerRelativeLayout>
+
+        <Button
+            android:id="@+id/signInWithGoogle"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/white_backround_ripple"
+            android:text="Sign In With Google"
+            android:drawableLeft="@drawable/google_icon"
+            android:drawablePadding="7dp"
+            android:padding="7dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="20dp"
+            android:visibility="gone"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ICC Software .Inc &#169;"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1065324549753",
+    "firebase_url": "https://smart-fp-scanner.firebaseio.com",
+    "project_id": "smart-fp-scanner",
+    "storage_bucket": "smart-fp-scanner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065324549753:android:61aef7b0aa0fad88",
+        "android_client_info": {
+          "package_name": "com.iccsoftware.smartfpscanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065324549753-qab5p0pcniaekrhnonp66a22r7r6lduk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.iccsoftware.smartfpscanner",
+            "certificate_hash": "79bd84dd5e89362aa89c299e5cc1959501d79069"
+          }
+        },
+        {
+          "client_id": "1065324549753-78kgvikplsn3rdvn75ju43tp8ets4bra.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAigkvVg5EQc1zHx66QygubknI9U4v-Urk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065324549753-78kgvikplsn3rdvn75ju43tp8ets4bra.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
