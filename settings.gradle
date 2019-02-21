@@ -1,0 +1,5 @@
+include ':app',':openCVLibrary343'
+
+def opencvsdk = 'C:\\Users\\PETER-PC\\AppData\\Local\\Android\\opencv-3.4.3-android-sdk'
+
+project(':openCVLibrary343').projectDir = new File(opencvsdk + '/sdk')

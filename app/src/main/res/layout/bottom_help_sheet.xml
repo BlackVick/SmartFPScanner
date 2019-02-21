@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:padding="3dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="L TH"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left|center_vertical"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="Left Thumb"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="L FF"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left|center_vertical"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="Left Fore Finger"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="L IF"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left|center_vertical"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="Left Index Finger"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="L RF"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left|center_vertical"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="Left Ring Finger"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="L TF"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left|center_vertical"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="Left Tiny Finger"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="R TH"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left|center_vertical"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="Right Thumb"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="R FF"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left|center_vertical"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="Right Fore Finger"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="R IF"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left|center_vertical"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="Right Index Finger"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="R RF"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left|center_vertical"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="Right Ring Finger"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="3dp"
+                android:weightSum="10">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="2"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="R TF"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text=":"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left|center_vertical"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="7"
+                    android:layout_height="wrap_content"
+                    android:padding="3dp"
+                    android:text="Right Tiny Finger"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:gravity="left"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</android.support.v7.widget.CardView>
